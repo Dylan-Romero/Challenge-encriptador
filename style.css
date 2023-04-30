@@ -1,0 +1,292 @@
+#botonCopiar{
+    display: none;
+    margin-left: 50px;
+    width: 75%;
+    height: 40px;
+    color: #0A3871;
+    background-color: #D8DFE8; 
+    border-radius: 24px;
+    border-color: #0A3871;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #E9ECF8;
+    height: auto;
+}
+
+main{
+    height: 25%;
+    width: 100%;
+}
+main img{
+    padding: 40px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container p{
+    color: #495057;
+}
+
+#textoEncriptado{
+    width: 100%;
+    height: 60%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 35px;
+    color: #0A3871;
+    background-color: #E9ECF8;
+}
+
+.encriptar{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 10px 10px 10px 85px;
+    resize: none;
+}
+
+#textoDesencriptado{
+    width: 65%;
+    height: 83%;
+    font-family: "Inter";
+}
+
+.containerbtn{
+    text-align: center;
+}
+
+#botonEncriptado{
+    width: 25%;
+    height: 40px;
+    color: white;
+    font-family: "Inter";
+    background-color: #0A3871;
+    border-radius: 24px;
+    border-color: #0A3871;
+}
+
+#botonDesencriptado{
+    width: 25%;
+    height: 40px;
+    color: #0A3871;
+    background-color: #D8DFE8; 
+    border-radius: 24px;
+    border-color: #0A3871;
+}
+
+.desencriptar{
+    height: 80%;
+    display: block;
+    margin: 10px 30px 0px 0px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    font-family: "Inter";
+}
+
+.containerimg{
+    justify-content: center;
+    margin: 60px 10px 10px 70px;
+}
+
+#img{
+    display: block;
+    width: 60%;
+    height: 60%;
+}
+
+.containertextoDesencriptado{
+    text-align: center;
+}
+
+#textoDesencriptado{
+    height: 50%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 20px;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color: #E9ECF8;
+        height: auto;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .container p {
+        color: #495057;
+        font-size: 18px;
+    }
+
+    .containerbtn{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        margin-left: 56px;
+    }
+
+    #botonEncriptado{
+        width: 50%;
+        height: 50px;
+        color: white;
+        font-family: "Inter";
+        background-color: #0A3871;
+        border-radius: 24px;
+        border-color: #0A3871;
+        font-size: 25px;
+    }
+
+    #botonDesencriptado{
+        width: 50%;
+        height: 50px;
+        color: #0A3871;
+        background-color: #D8DFE8;
+        border-radius: 24px;
+        border-color: #0A3871;
+        font-size: 25px;
+    }
+
+    .desencriptar {
+        height: 80%;
+        display: block;
+        margin: 10px 30px 0px 0px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        font-family: "Inter";
+        margin-left: 27px;
+    }
+    
+    .containerimg{
+        display: none;
+    }
+
+    #textoDesencriptado {
+        margin-left: 75px;
+        height: 50%;
+        border: none;
+        outline: none;
+        resize: none;
+        font-family: "Inter";
+        font-style: normal;
+        font-size: 20px;
+        background-color: white; 
+    }
+
+    #botonCopiar {
+        display: none;
+        margin-left: 176px;
+        width: 50%;
+        height: 50px;
+        color: #0A3871;
+        background-color: #D8DFE8;
+        border-radius: 24px;
+        border-color: #0A3871;
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 375px ) {
+    
+    main img {
+        padding-top: 16px;
+    }
+
+    .encriptar {
+        width: 80%;
+        height: 60%;
+        display: block;
+        resize: none;
+        margin-left: 10px;
+    }
+
+    .containerbtn {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-left: 25px;
+    }
+
+    #botonEncriptado {
+        width: 100%;
+        height: 50px;
+        color: white;
+        font-family: "Inter";
+        background-color: #0A3871;
+        border-radius: 24px;
+        border-color: #0A3871;
+        font-size: 20px;
+        margin: 0px 0px 10px 0px;
+    }    
+
+    #botonDesencriptado {
+        width: 100%;
+        height: 50px;
+        color: #0A3871;
+        background-color: #D8DFE8;
+        border-radius: 24px;
+        border-color: #0A3871;
+        font-size: 20px;
+    }
+
+    .containertextoDesencriptado {
+        text-align: center;
+        height: 125px;
+    }
+
+    #textoDesencriptado {
+        width: 75%;
+        height: 50%;
+        border: none;
+        outline: none;
+        resize: none;
+        font-family: "Inter";
+        font-style: normal;
+        font-size: 20px;
+        background-color: white;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #botonCopiar {
+        display: none;
+        margin-left: 0px;
+        width: 100%;
+        height: 50px;
+        color: #0A3871;
+        background-color: #D8DFE8;
+        border-radius: 24px;
+        border-color: #0A3871;
+        font-size: 25px;
+    }
+
+}
+
+
+

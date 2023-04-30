@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/Logo.pnggit" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="scrip.js"></script>
+    <title>Challenge encriptador</title>
+</head>
+<body>
+    <main>
+        <img src="imagenes/Logo.png" alt="logo alura">
+    </main>
+
+    <div class="container">
+        <div class="encriptar">
+            <textarea type="text" id="textoEncriptado" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <p> &#9888; Solo letras y minusculas sin acentos</p>
+            <div class="containerbtn">
+                <button type="button" id="botonEncriptado">Encriptar</button>
+                <button type="button" id="botonDesencriptado">Desencriptar</button>
+            </div>
+        </div>
+        <div class="desencriptar">
+            <div class="containerimg">
+                <img src="imagenes/Muñeco.png" alt="" id="img">
+            </div>
+            <div class="containertextoDesencriptado">
+                <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10" placeholder="Ingrese el texto que desea encriptar o desencriptar"></textarea>
+            </div>
+            <div class="containerbtnc">
+                <button type="button" id="botonCopiar">Copiar</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var btn = document.querySelector("#botonEncriptado");
+    btn.onclick = encriptar;
+    var btn2 = document.querySelector("#botonDesencriptado")
+    btn2.onclick = desencriptar
+    var btn3 = document.querySelector("#botonCopiar")
+    btn3.onclick = copiar;
+</script>
+</html>
